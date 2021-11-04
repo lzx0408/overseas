@@ -6,6 +6,7 @@
 </template>
 
 <style lang="scss">
+
 *{
   margin: 0;
   padding: 0;
@@ -17,4 +18,5 @@ body{
   font-size: 0.14rem;
   background: #f5f7f9;
 }
+
 </style>

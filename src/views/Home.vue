@@ -1,9 +1,15 @@
 <template>
   <div class="home">
+
     <MyHeader />
+     <Plan />
     <Zhinan />
 
     <Abroad />
+    <Usa />
+    <Usa />
+    <Usa />
+    <Usa />
     <footer class="footer">
             <ul>
                 <li>
@@ -26,6 +32,7 @@
                 </li>
             </ul>
         </footer>
+
   </div>
 </template>
 
@@ -34,12 +41,16 @@
 import MyHeader from './MyHeader/MyHeader.vue'
 import Abroad from '@/views/abroad/abroad.vue'
 import Zhinan from '@/views/zhinan/index.vue'
+import Plan from '@/views/plan/index.vue'
+import Usa from '@/views/usa/index.vue'
 export default {
   name: 'Home',
   components: {
     MyHeader,
     Abroad,
-    Zhinan
+    Zhinan,
+    Plan,
+    Usa
   }
 }
 </script>
